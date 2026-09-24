@@ -3,6 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "engines": { "node": "24.x" },
-  "scripts": { "start": "N8N_PORT=$PORT n8n start" },
+  "scripts": { "start": "NODE_OPTIONS=--no-node-snapshot N8N_PORT=$PORT n8n start" },
   "dependencies": { "n8n": "2.40.6" }
 }
