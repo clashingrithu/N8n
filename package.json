@@ -2,7 +2,7 @@
   "name": "n8n-on-render",
   "private": true,
   "version": "1.0.0",
-  "engines": { "node": "20.x" },
+  "engines": { "node": "22.x" },
   "scripts": { "start": "N8N_PORT=$PORT n8n start" },
-  "dependencies": { "n8n": "^1.0.0" }
+  "dependencies": { "n8n": "2.40.6" }
 }
